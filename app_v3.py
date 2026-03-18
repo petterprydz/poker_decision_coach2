@@ -262,11 +262,13 @@ with st.sidebar:
     if not api_key:
         api_key = st.text_input("Anthropic API Key", type="password",
                                  help="Required for LLM features (hand analysis + chatbot)")
+    
     if api_key:
         st.session_state["_api_key_saved"] = api_key
         st.success("API key set ✓")
-        if st.session_state.get("chatbot") is None:
+        if st.session_state.get("_last_api_key") != api_key:
             st.session_state["chatbot"] = ChatbotCoach(api_key)
+            st.session_state["_last_api_key"] = api_key
 
     st.markdown("---")
     st.subheader("Opponent Range")
