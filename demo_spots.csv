@@ -1,0 +1,16 @@
+spot_id,hero_hand,board,pot,bet,action
+1,AhKd,Ts9d2c,80,25,call
+2,QhJh,Ts9d2c7h,100,35,call
+3,8h7h,9h6d2cKs,90,20,call
+4,AdJd,KhTd4s8c,120,30,fold
+5,Ts9s,Js8d3c6h,80,35,call
+6,AsQs,QhTd5c2d,110,55,fold
+7,KhQd,Ac7d3s,95,40,fold
+8,JsJd,8c5h2d,150,45,call
+9,5h4h,6d7s8c,70,15,call
+10,AcKc,KdQh9s,200,80,call
+11,2h2d,Ah9d3c,60,30,fold
+12,TsTh,7c4d2s,130,50,call
+13,9c8c,Js7h5d,75,20,call
+14,KdJs,Qc9h4s,100,60,fold
+15,6s5s,7d8cTh,85,18,call
